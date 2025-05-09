@@ -1,5 +1,5 @@
 # Linked-list
-1. TaskNode Class (The Building Block)
+1. TaskNode Class 
 --------------------------------------
 Each task in the scheduler is represented by a TaskNode. It contains:
 - `name`: The task's name 
@@ -10,7 +10,7 @@ This is similar to a person in a line who knows who comes next.
 Example:
     node = TaskNode("Water plants")
 
-2. TaskQueue Class (The Manager)
+2. TaskQueue Class
 --------------------------------
 This is the actual linked list structure that:
 - Tracks the `head` (start of the list) and `tail` (end)
