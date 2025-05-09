@@ -1,7 +1,4 @@
 class TaskQueue:
-    """
-    A simple task queue implemented using a singly linked list.
-    """
     def __init__(self):
         self.head = None
         self.tail = None
