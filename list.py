@@ -1,3 +1,4 @@
+From Node import *;
 class TaskQueue:
     def __init__(self):
         self.head = None
